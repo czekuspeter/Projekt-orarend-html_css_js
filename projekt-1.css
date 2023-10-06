@@ -1,0 +1,307 @@
+body{
+    background-image: var(--body-background-image);
+}
+
+:root{
+    --body-background-image: url('asd.jpg');
+}
+ 
+.darkmod{
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+ 
+.container{
+    background-color: rgba(153, 145, 145, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 800px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+ 
+.header{
+     background-color: white;
+     display: flex;
+    width: 80%;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 80px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 650px;
+    margin-left: 150px;
+}
+ 
+.hetkoznapok{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 350px;
+    margin-left: 90px;
+}
+ 
+.hetfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 20%;
+    height: 350px;
+}
+ 
+.hetfo1{
+    background-color: rgb(212, 204, 192);
+    font-size: 35px;
+    align-self: center;
+    font-weight: bold;
+}
+ 
+.hetfo2{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 20px;
+}
+ 
+.hetfo3{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.hetfo4{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+
+
+.kedd{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 350px;
+    margin-left: 20px;
+}
+ 
+.kedd1{
+    background-color: rgb(212, 204, 192);
+    font-size: 35px;
+    font-weight: bold;
+    align-self: center;
+    margin-top: 20px;
+}
+ 
+.kedd2{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 20px;
+}
+ 
+.kedd3{
+    background-color:rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.kedd4{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.szerda{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 350px;
+    margin-left: 20px;
+   
+}
+ 
+.szerda1{
+    background-color: rgb(212, 204, 192);
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    align-self: center;
+}
+ 
+.szerda2{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 20px;
+}
+ 
+.szerda3{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.szerda4{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.szerda5{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.csutortok{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 350px;
+    margin-left: 20px;
+}
+ 
+.csutortok1{
+    background-color: rgb(212, 204, 192);
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    align-self: center;
+}
+ 
+.csutortok2{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 20px;
+}
+ 
+.csutortok3{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.csutortok4{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white; 
+    margin-top: 10px;
+}
+ 
+.pentek{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 350px;
+    margin-left: 20px;
+}
+ 
+.pentek1{
+    background-color: rgb(212, 204, 192);
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    align-self: center;
+}
+ 
+.pentek2{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 20px;
+}
+ 
+.pentek3{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.pentek4{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.pentek5{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.hetvege{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 300px;
+    margin-left: 90px;
+   
+}
+ 
+.szombat{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    margin-left: 200px;
+}
+ 
+.szombat1{
+    background-color: rgb(212, 204, 192);
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 60px;
+    align-self: center;
+}
+ 
+.szombat2{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 20px;
+}
+ 
+.szombat3{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.szombat4{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.vasarnap{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    margin-left: 200px;
+}
+ 
+.vasarnap1{
+    background-color: rgb(212, 204, 192);
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 60px;
+    align-self: center;
+}
+ 
+.vasarnap2{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
+.vasarnap3{
+    background-color: rgba(94, 71, 71, 0.75);
+    color: white;
+    margin-top: 10px;
+}
+ 
